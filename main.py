@@ -5,7 +5,7 @@ from discord import Embed,Colour
 from connect import BotTest
 def main():
     
-    BotTest.remove_command("help")
+    #BotTest.remove_command("help")
   
     load_dotenv(dotenv_path="config")
 

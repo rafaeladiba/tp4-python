@@ -2,7 +2,7 @@
 from discord.ext import commands
 from discord import Embed, Colour
 import logging
-from time import gmtime, strftime
+from time import strftime
 
     
 
@@ -27,17 +27,33 @@ class Bot(commands.Bot):
        
         logging.info("%s Message from %s -> %s",datefmt,message.author,message.content)
 
- 
-
+        
+        """switcher = {
+            0:"hey!",
+            1:"bienvenue",
+            2:"au revoir",
+            
+        }"""
+        #switcher.get(0)
+        #eventuellement utiliser la structure match case par la suite pour avoir un code plus propre
+        
         if message.content == "Hello":
-            await message.channel.send("hey!")
+            await message.channel.send("hey !")
+        if message.content == "Au revoir" or message.content == "bye":
+            await message.channel.send("Bye bye ! À bientôt")
+        if message.content == "Time":
+            await message.channel.send(strftime("%a, %d %b %Y %H:%M:%S"))
+        
+
+
+
         if message.content.startswith("!del"):
             number = int(message.content.split()[1])
             messages = await message.channel.history(limit=number + 1).flatten()
             for each_message in messages:
                 await each_message.delete()
         if message.content.startswith("!help"):
-            await message.channel.send("Commandes : Hello renvoie hey!,...")
+            await message.channel.send("Commandes : \n- Hello renvoie 'hey !'\n- Au revoir / bye renvoie 'Bye bye ! À bientôt'\n- Time renvoie la date et l'heure")
 
     
     
