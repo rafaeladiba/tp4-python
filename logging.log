@@ -1,0 +1,5 @@
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-sgz6",{"micros":117832,"calls":["discord-sessions-blue-prd-2-118",{"micros":117001,"calls":["start_session",{"micros":93224,"calls":["discord-api-6db46b8d45-jh5zp",{"micros":87001,"calls":["get_user",{"micros":12660},"add_authorized_ip",{"micros":2096},"get_guilds",{"micros":7559},"coros_wait",{"micros":4}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":10373,"calls":[]}]}]}] (Session ID: c1c67370580ed0698bac6e256f33f1a1).
+INFO:root:Sat, 16 Apr 2022 15:14:35 Message from pitu#8105 -> ookiiii cool!
