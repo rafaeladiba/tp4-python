@@ -1,15 +1,11 @@
 WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
 INFO:discord.client:logging in using static token
 INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
-INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-q70m",{"micros":73400,"calls":["discord-sessions-blue-prd-2-108",{"micros":72428,"calls":["start_session",{"micros":48993,"calls":["discord-api-6db46b8d45-wv6gh",{"micros":43962,"calls":["get_user",{"micros":9415},"add_authorized_ip",{"micros":4961},"get_guilds",{"micros":5985},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":22931,"calls":[]}]}]}] (Session ID: 4fd861d934441823b2d354cf495c85ff).
-INFO:root:Sat, 16 Apr 2022 15:49:07 Message from pitu#8105 -> Hello
-INFO:root:Sat, 16 Apr 2022 15:49:07 Message from bot_tp_ing#0211 -> hey !
-INFO:root:Sat, 16 Apr 2022 15:49:13 Message from pitu#8105 -> !help
-INFO:root:Sat, 16 Apr 2022 15:49:13 Message from bot_tp_ing#0211 -> Commandes : 
-- Hello renvoie 'hey !'
-- Au revoir / bye renvoie 'Bye bye ! À bientôt'
-- Time renvoie la date et l'heure
-INFO:root:Sat, 16 Apr 2022 15:49:20 Message from pitu#8105 -> Time
-INFO:root:Sat, 16 Apr 2022 15:49:20 Message from bot_tp_ing#0211 -> Sat, 16 Apr 2022 15:49:20
-INFO:root:Sat, 16 Apr 2022 15:49:26 Message from pitu#8105 -> Au revoir
-INFO:root:Sat, 16 Apr 2022 15:49:26 Message from bot_tp_ing#0211 -> Bye bye ! À bientôt
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-n7jb",{"micros":133665,"calls":["discord-sessions-blue-prd-2-44",{"micros":125545,"calls":["start_session",{"micros":83947,"calls":["discord-api-6db46b8d45-bth55",{"micros":79720,"calls":["get_user",{"micros":6848},"add_authorized_ip",{"micros":10409},"get_guilds",{"micros":15303},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":23043,"calls":[]}]}]}] (Session ID: f3888aed1efe199f7e1d35fc85021ed4).
+INFO:root:Sat, 16 Apr 2022 16:15:42 Message from Edwin LI#4607 -> 
+INFO:root:Sat, 16 Apr 2022 16:15:42 Message from bot_tp_ing#0211 -> Bienvenue Edwin LI sur Le Serveur de pitu !
+INFO:root:User  Edwin LI now connected on the server.
+INFO:root:Sat, 16 Apr 2022 16:15:51 Message from pitu#8105 -> Hello
+INFO:root:Sat, 16 Apr 2022 16:15:52 Message from bot_tp_ing#0211 -> hey !
+INFO:root:Sat, 16 Apr 2022 16:15:59 Message from bot_tp_ing#0211 -> Au revoir Edwin LI. Ce n'est qu'un au revoir.
+INFO:root:User  Edwin LI now removed from the server.

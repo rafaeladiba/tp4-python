@@ -1,6 +1,6 @@
 #import discord
 from discord.ext import commands
-from discord import Embed, Colour
+from discord import Embed, Colour, TextChannel,Intents
 import logging
 from time import strftime
 
@@ -10,8 +10,25 @@ class Bot(commands.Bot):
     def __init__(self):
        
        logging.basicConfig(filename='logging.log', filemode='w', level=logging.INFO)
-       super().__init__(command_prefix="!")
+       intents = Intents.default()
+       intents.members = True
+       super().__init__(command_prefix="!", intents=intents)
        
+               
+       
+    async def on_member_join(self,member):
+        
+        general_channel:TextChannel= self.get_channel(964423566386937879)
+        await general_channel.send(content=f"Bienvenue {member.display_name} sur Le Serveur de pitu !")
+        print(f"L'utilisateur {member.display_name} a rejoint le serveur !")
+        logging.info(f"User  {member.display_name} now connected on the server.")
+
+    async def on_member_remove(self,member):
+        general_channel = self.get_channel(964423566386937879)
+        await general_channel.send(content=f"Au revoir {member.display_name}. Ce n'est qu'un au revoir.")
+        print(f"L'utilisateur {member.display_name} a quitté le serveur !")
+        logging.info(f"User  {member.display_name} now removed from the server.")
+
 
     async def on_ready(self):
         print(f"{self.user} has connected to Discord!")
