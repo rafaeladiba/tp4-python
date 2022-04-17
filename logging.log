@@ -1,11 +1,4 @@
 WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
 INFO:discord.client:logging in using static token
 INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
-INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-n7jb",{"micros":133665,"calls":["discord-sessions-blue-prd-2-44",{"micros":125545,"calls":["start_session",{"micros":83947,"calls":["discord-api-6db46b8d45-bth55",{"micros":79720,"calls":["get_user",{"micros":6848},"add_authorized_ip",{"micros":10409},"get_guilds",{"micros":15303},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":23043,"calls":[]}]}]}] (Session ID: f3888aed1efe199f7e1d35fc85021ed4).
-INFO:root:Sat, 16 Apr 2022 16:15:42 Message from Edwin LI#4607 -> 
-INFO:root:Sat, 16 Apr 2022 16:15:42 Message from bot_tp_ing#0211 -> Bienvenue Edwin LI sur Le Serveur de pitu !
-INFO:root:User  Edwin LI now connected on the server.
-INFO:root:Sat, 16 Apr 2022 16:15:51 Message from pitu#8105 -> Hello
-INFO:root:Sat, 16 Apr 2022 16:15:52 Message from bot_tp_ing#0211 -> hey !
-INFO:root:Sat, 16 Apr 2022 16:15:59 Message from bot_tp_ing#0211 -> Au revoir Edwin LI. Ce n'est qu'un au revoir.
-INFO:root:User  Edwin LI now removed from the server.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-wg71",{"micros":73442,"calls":["discord-sessions-blue-prd-2-146",{"micros":64568,"calls":["start_session",{"micros":48478,"calls":["discord-api-6db46b8d45-5fw59",{"micros":44114,"calls":["get_user",{"micros":8375},"add_authorized_ip",{"micros":2444},"get_guilds",{"micros":4821},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":569,"calls":[]}]}]}] (Session ID: 575759046b527f23f5a6d0c016e66f68).
